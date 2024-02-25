@@ -70,6 +70,15 @@ p {
     text-align: center;
     color:aliceblue;
 }
+
+.destaque {
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.negrito {
+    font-weight: 600;
+}
 footer {
     font-size: 1.4rem;
     padding: 2.4rem;
@@ -86,7 +95,7 @@ footer {
         width: 100%;
     }
     nav img {
-        width: 9.4rem;
+        width: 6.4rem;
     }
     p {
         width: 100%;
