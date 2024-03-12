@@ -3,7 +3,7 @@
     padding: 0;
 }
 :root {
-    max-width: 100%;
+    width: 100%;
     font-size: 62.5%;
 }
 body {
@@ -11,7 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
    
     margin: 0 auto;
-    width: 75%;
+    width: 80%;
 }
 section {
     display: flex;
@@ -34,11 +34,25 @@ h1 {
 }
 
 nav {
-    width: 50%;
+    width: 51%;
     margin: 0 auto;
+    text-align: center;
     display: flex;
     justify-content: center;
+    } 
+    
+nav ul {
+   
+    margin: 0 auto;
+    
+}   
+nav ul li {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
+
+
 .icons {
     margin: 0 auto;
    
@@ -54,17 +68,18 @@ nav img {
     
     width: 10.4rem;
     padding: 0.8rem;
+    margin: 0 auto;
    
 }
-figcaption {
-    width: 100%
-   
-}
+
 main {
     margin-top: 2.4rem;
+    width: 90%;
+    margin: 0 auto;
 }
 p {
     font-size: 1.6rem;
+    font-weight: 100;
     padding: 1.0rem;
     line-height: 1.5;
     text-align: center;
@@ -86,26 +101,20 @@ footer {
     color:rgb(115, 23, 201)
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     body {
-        max-width: 80%;
+        width: 100%;
     }
 
+    main {
+        width: 90%
+       
+    }
+      
     nav {
         width: 100%;
     }
     nav img {
         width: 9.4rem;
     }
-    p {
-        width: 100%;
-    }
-
-.icons2 {
-    margin: 0 auto;
-    gap: 1.0rem;
 }
-   
-
-}
-    
